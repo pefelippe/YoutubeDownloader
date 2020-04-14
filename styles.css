@@ -1,0 +1,47 @@
+body {
+  /* background-color:#5f00ba; */
+}
+
+#container {
+  color: #fff2f1;
+  background-color: #a09be7 ;
+
+  width: 90%;
+  max-width: 980px;
+  
+  border-radius: 2px;
+  margin: 40px auto;
+
+  display: block;
+
+  padding: 15px;
+
+}
+
+#container h1, .youtube{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label{
+  font-size: 18px;
+}
+
+.youtube {
+  width: 100%;
+  padding: 12px;
+  /* box-sizing: border-box; */
+  /* border: 1px solid rgba(141, 25, 52, 0.5);
+  border-radius: 6px; */
+  outline: none;
+  font-size: 16px;
+}
+
+/* Pallete: 
+  #5f00ba
+  #a09be7 
+  #fff2f1
+  #b0ff92
+  #d6ff79
+*/
