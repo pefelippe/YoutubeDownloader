@@ -1,6 +1,11 @@
-body {
-  /* background-color:#5f00ba; */
-}
+
+/* Pallete: 
+  #5f00ba
+  #a09be7 
+  #fff2f1
+  #b0ff92
+  #d6ff79
+*/
 
 #container {
   color: #fff2f1;
@@ -38,10 +43,7 @@ label{
   font-size: 16px;
 }
 
-/* Pallete: 
-  #5f00ba
-  #a09be7 
-  #fff2f1
-  #b0ff92
-  #d6ff79
-*/
+input {
+  width: 300px;
+}
+
