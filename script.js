@@ -7,5 +7,5 @@ downBtn.addEventListener('click', () => {
 })
 
 function sendUrl(url){
-  window.location.href = `http://localhost:3001/download?URL=${url}`;
+  window.location.href = `http://localhost:3001/download?URL=${url}`
 }
