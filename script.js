@@ -1,5 +1,5 @@
-var downBtn = document.querySelector('.botao')
-var urlInput = document.querySelector('.input-youtube')
+var downBtn = document.querySelector('.btn.btn-danger')
+var urlInput = document.querySelector('.form-control')
 
 downBtn.addEventListener('click', () => {
   console.log(`URL: ${urlInput.value}`)

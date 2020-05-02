@@ -7,43 +7,20 @@
   #d6ff79
 */
 
-#container {
-  color: #fff2f1;
-  background-color: #a09be7 ;
+#container{
+  width: 100%;
 
-  width: 90%;
-  max-width: 980px;
-  
-  border-radius: 2px;
-  margin: 40px auto;
-
-  display: block;
-
-  padding: 15px;
-
-}
-
-#container h1, .youtube{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-label{
-  font-size: 18px;
 }
 
 .youtube {
-  width: 100%;
-  padding: 12px;
-  /* box-sizing: border-box; */
-  /* border: 1px solid rgba(141, 25, 52, 0.5);
-  border-radius: 6px; */
-  outline: none;
-  font-size: 16px;
+  padding-top: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+  
 }
-
-input {
-  width: 300px;
+.submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
