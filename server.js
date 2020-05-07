@@ -1,3 +1,5 @@
+// Servidor responsável por utilizar a API do Youtube e outras bibliotecas.
+
 const express = require('express');
 const cors = require('cors');
 const ytdl = require('ytdl-core');

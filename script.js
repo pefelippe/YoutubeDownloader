@@ -1,5 +1,7 @@
-var downBtn = document.querySelector('.btn.btn-danger')
-var urlInput = document.querySelector('.form-control')
+// Integração HTML E JS
+
+var urlInput = document.querySelector('.urlInput')
+var downBtn = document.querySelector('.btnSubmit')
 
 downBtn.addEventListener('click', () => {
   console.log(`URL: ${urlInput.value}`)

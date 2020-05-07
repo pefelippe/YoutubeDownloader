@@ -1,5 +1,8 @@
-# Youtube Downloader
-Site simples para o download de videos do youtube.
+<img src="">
+
+<p align="center">
+    <i>Um site para baixar vídeos do Youtube.</i>
+</p>
 
 # Tecnologias Utilizadas
 - API do Youtube
@@ -7,21 +10,13 @@ Site simples para o download de videos do youtube.
 - Javascript
 - Bootstrap
 
-# Como Utilizar
-```
-    git clone https://github.com/pefelippe/YoutubeDownloader
-    cd YoutubeDownloader
-    npm install
-```
-## Backend
-```
-    npm dev
-```
+# Pré-Requisitos
 
-## Frontend
-```
-    Abra o arquivo index.html
-    Insira uma url válida
-```
+`Clone o Repositório`
+> git glone https://github.com/pefelippe/YoutubeDownloader
 
-*** Em Breve irei subir para o Heroku ***
+`Instale as Dependências`
+> npm install
+
+`Rode o Backend`
+> npm dev

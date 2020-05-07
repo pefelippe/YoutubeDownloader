@@ -1,26 +1,59 @@
-
-/* Pallete: 
-  #5f00ba
-  #a09be7 
-  #fff2f1
-  #b0ff92
-  #d6ff79
-*/
-
-#container{
+* {
+  margin: 0;
   width: 100%;
-
-}
-
-.youtube {
-  padding-top: 5%;
-  padding-left: 25%;
-  padding-right: 25%;
+  height: 100%;
   
 }
-.submit{
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 5fr 3fr 1fr ;
+  
+  grid-template-areas: "nav"
+                        "downloader"
+                        "ajuda
+                        "footer";
+}
+
+.nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  grid-area: "nav";
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(229, 45, 39), rgb(179, 18, 23)) repeat scroll 0% 0%;
 }
 
+.downloader {
+  display: flex;
+  grid-area: "downloader";
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(236, 233, 230), rgb(255, 255, 255)) repeat scroll 0% 0%;
+
+}
+
+.ajuda {
+  grid-area: "ajuda";
+  background: #292E49;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  grid-area: "footer";
+
+  background: #0F2027;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.submit input {
+ margin: 100px;
+}
