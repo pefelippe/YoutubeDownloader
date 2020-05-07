@@ -1,19 +1,19 @@
-<img src="">
+<!-- <img src=""> -->
 
 <p align="center">
     <i>Um site para baixar vídeos do Youtube.</i>
 </p>
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - API do Youtube
 - Node
 - Javascript
 - Bootstrap
 
-# Pré-Requisitos
+## Pré-Requisitos
 
 `Clone o Repositório`
-> git glone https://github.com/pefelippe/YoutubeDownloader
+> git clone https://github.com/pefelippe/YoutubeDownloader
 
 `Instale as Dependências`
 > npm install
